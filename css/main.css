@@ -2,7 +2,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   margin: 0; }
 
-.container {
+html {
   overflow-y: scroll;
   scroll-snap-type: y mandatory; }
 
@@ -22,5 +22,13 @@ section {
     font-size: 3em; }
   section p {
     font-size: 1.2em; }
+
+#flex-row {
+  display: flex;
+  flex-direction: column; }
+  #flex-row div {
+    background: blue;
+    border: 2px solid red;
+    font-size: 34px; }
 
 /*# sourceMappingURL=main.css.map */
