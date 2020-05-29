@@ -1,0 +1,16 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0; }
+
+section {
+  padding: 7em;
+  height: calc(100vh - 14em);
+  color: white; }
+  section:nth-of-type(1) {
+    background: #60af15; }
+  section:nth-of-type(2) {
+    background: #158baf; }
+  section:nth-of-type(3) {
+    background: #af1581; }
+
+/*# sourceMappingURL=main.css.map */
